@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-class {
+    background-color: #e05e5e;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+nav a img {
+    width: 25px;
+}
+
+.main-container {
+    background-image: linear-gradient(to right, #faf3a5, #f7d5ed);
+}
+
+.image-container {
+    height: 50vh;
+}
+
+.robin-image {
+    height: 50vh;
+    width: 100vw;
+}
+
+.company-description {
+    background-color: transparent;
+    padding: 15px 10px;
+}
+
+.heading1 {
+    text-transform: uppercase;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+.para1 {
+    font-family: "open sans";
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.button1 {
+    width: 150px;
+    color: white;
+    background-color: #e87676;
+    font-weight: 300;
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+.images1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.img-class1 {
+    width: 40vw;
+    height: 180px;
+    margin-bottom: 5px;
+}
+
+.img-class2 {
+    width: 40vw;
+    height: 365px;
+
+}
+
+.company-info-images {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.company-info {
+    padding: 10px 0px;
+    background-image: linear-gradient(to right, #faec8e, #f7d5ed, #f593fa);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bottom-description {
+    font-family: "Roboto";
+    background-color: #e87358;
+    padding: 15px;
+    margin: 20px;
+    width: 75vw;
+}
+
+.bottom-para {
+    margin-bottom: 15px;
+}
+
+.bottom-button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.arrow-class {
+    margin-left: 5px;
+}
+
+@media screen and (min-width:768px) {
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .company-description {
+        padding: 20px;
+    }
+
+    .heading1 {
+        font-size: 33px;
+    }
+
+    .para1 {
+        font-size: 22px;
+    }
+
+    .button1 {
+        font-size: 20px;
+        width: 200px;
+        padding: 15px
+    }
+
+    .company-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 0px;
+    }
+
+    .img-class1 {
+        height: 280px;
+    }
+
+    .img-class2 {
+        height: 565px;
+    }
+
+    .bottom-description {
+        width: 60vw;
+        padding: 20px
+    }
+
+    .bottom-para {
+        font-size: 25px;
+    }
+
+    .bottom-heading {
+        font-size: 40px;
+    }
+
+    .bottom-button {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    nav {
+        height: 20vh;
+    }
+
+    .main-container {
+        height: 100vh;
+        display: flex;
+    }
+
+    .image-container {
+        width: 50vw;
+        order: 2;
+    }
+
+    .company-description {
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        padding: 0 50px;
+    }
+
+    .robin-image {
+        height: 100vh;
+        width: 50vw;
+    }
+
+    .heading1 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .para1 {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .button1 {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .company-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .company-info-images {
+        width: 35vw;
+    }
+
+    .images1 {
+        width: 50%;
+        margin-right: 22px;
+    }
+
+    .img-class1 {
+        width: 100%;
+        height: 240px;
+        margin-bottom: 10px
+    }
+
+    .img-class2 {
+        width: 100%;
+        height: 490px;
+    }
+
+    .images2 {
+        width: 50%
+    }
+
+    .bottom-description {
+        margin-left: 30px;
+        width: 35vw;
+
+    }
+
+    .bottom-heading {
+        font-size: 50px;
+    }
+
+    .bottom-para {
+        font-size: 16px;
+    }
+
+    .bottom-button {
+        font-size: 15px;
+    }
+}
